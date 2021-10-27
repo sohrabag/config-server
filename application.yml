@@ -1,10 +1,10 @@
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-       defaultZone: http://service-registry:8761/eureka/
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#       defaultZone: http://service-registry:8761/eureka/
 #      defaultZone: http://localhost:8761/eureka/
-  instance:
-     hostname: service-registry
+#  instance:
+#     hostname: service-registry
 #    hostname: localhost
