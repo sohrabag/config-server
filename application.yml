@@ -6,4 +6,5 @@ eureka:
        defaultZone: http://service-registry:8761/eureka/
 #      defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: localhost
+     hostname: service-registry
+#    hostname: localhost
